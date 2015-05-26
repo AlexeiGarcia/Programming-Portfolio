@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+	margin: 20px, 20px, 20px, 20px;
+}
+.homePage {
+	background: #FFFFFF;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	background: #AAAAAA;
+	text-align: center;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 80px;
+	
+}
+.nav {
+	background: #555;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 46px;
+	text-align: center;
+}
+.content {
+	background: #EFEFEF;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	
+	text-align: center;
+}
+.footer {
+	background: #939393;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+ul li {
+  font: bold 14px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 53px;
+  background: #555;
+  cursor: pointer;
+  transition: all 0.2s;
+  color:#fff;
+}
+
+ul li:hover {
+  background: #fff;
+  color: #555;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: auto;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li { 
+  background: #fff; 
+  display: block; 
+  color: #707070;
+  text-shadow: 0;
+  border-style: double;
+  border-width: 1px;
+  border-color: #D4D4D4;
+}
+
+ul li ul li:hover { 
+	background: #D7D7D7; 
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+a:link {
+	color: #6E6C64;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+}
+
+a:link.footer {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited.footer {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus.footer { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+}
+
+.indexsidebar1 {
+	background: #EFEFEF;
+	float: left;
+	width: 360px;
+	text-align: center;
+	margin: 10px;
+	
+}
+
+.indexsidebar2 {
+	background: #EFEFEF;
+	margin: 10px;
+	float: left;
+	width: 600px;
+	text-align: left;
+}
